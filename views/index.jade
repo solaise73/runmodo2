@@ -1,0 +1,9 @@
+html
+  head
+    title= title
+  body
+    h1= message
+
+    each person, index in data
+      li.list-group-item
+      | #{person.firstName}
